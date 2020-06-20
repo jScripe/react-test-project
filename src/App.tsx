@@ -1,13 +1,16 @@
 import React from 'react';
-import cn from 'classnames';
 
 import styles from './App.module.scss';
+
+import { Header } from './Components/Header';
+import { Footer } from './Components/Footer';
 
 
 function App() {
   return (
-    <div>
-      123
+    <div className={styles.app}>
+      <Header />
+      <Footer />
     </div>
   );
 }
